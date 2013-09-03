@@ -8,8 +8,8 @@ Homepage: https://pypi.python.org/pypi/ipaddress
 #Vcs-Git: git://git.debian.org/collab-maint/ipaddress.git
 #Vcs-Browser: http://git.debian.org/?p=collab-maint/ipaddress.git;a=summary
 
-Package: ipaddress
+Package: python-ipaddress
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: <insert up to 60 chars description>
- <insert long description, indented with spaces>
+Description: IPv4/IPv6 manipulation library
+ Port of the 3.3+ ipaddress module to 2.6 and 2.7
